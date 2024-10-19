@@ -34,6 +34,9 @@ results/                       generated: precision table + figures
 | Single-shot precision | **median 38.5 ps** (34.1–41.5 across 27 files) | `std(delay)/sqrt(2)` per file; the Python port reproduces the original flow |
 | Interval tracking | mean measured interval follows the 100 ps nominal steps linearly (constant offset) | `results/interval_tracking.png` |
 
+![Interval tracking and single-shot precision](results/interval_tracking.png)
+![Measured-interval histogram (representative file)](results/delay_histogram.png)
+
 Reproduce:
 
 ```bash
