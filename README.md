@@ -1,10 +1,11 @@
 # TDC-Bench — CARRY4 delay-chain TDC measurement & characterization
 
 **TDC-Bench** is the time-interval measurement subsystem of a lab
-instrument-development effort (working name). This release contains its
-characterization subset: the FPGA measurement-chain RTL, the acquisition
-analysis tooling, and the raw characterization datasets. The remaining
-subsystems of the parent project are not part of this release.
+instrument-development effort (working name). **This repository is the
+publicly releasable portion of my work on that subsystem**: the FPGA
+measurement-chain RTL, the acquisition analysis tooling, and the raw
+characterization datasets. The remaining subsystems of the parent project,
+and project-internal details, are not part of this release.
 
 Hardware: a quantization-delay **time-to-digital converter** on Xilinx
 Artix-7 (XC7A35T) — a tapped delay line built from CARRY4 carry primitives,
